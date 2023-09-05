@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# web3-frontend-template
+**Target: create a web3 front-end project with popular web3 framework.**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![title-img](src/assets/template.png)
 
-## Available Scripts
+## Init Function
+- MultiChain 
+- Auto refresh wallet balances
+- Different Theme 
+- I18n
 
-In the project directory, you can run:
+## Run 🏃
+```
+yarn && yarn dev
+```
 
-### `npm start`
+## Framework 🌞
+- [Next.js](https://nextjs.org/docs)
+- [wagmi](https://wagmi.sh/)
+- [ethersV6](https://docs.ethers.org/v6/)
+- [rainbowKit](https://www.rainbowkit.com/docs/introduction) (master branch)
+- [web3Modal](https://web3modal.com/) (web3Modal branch)
+- [react-redux](https://www.npmjs.com/package/react-redux)
+- [react-toastify](https://www.npmjs.com/package/react-toastify)
+- [SWR](https://swr.bootcss.com/)
+- [next-i18next](https://github.com/i18next/next-i18next)
+- UI framework
+  - [Chakra UI](https://chakra-ui.com/)
+  - [Styled-components](https://styled-components.com/)
+  - I choose to use styled-components as an auxiliary style library, it's up to u
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Config
+- Redux
+  - default: user / transactions / balances
+  - If u don't need the module, u can remove it as u want. This module is added because the author often uses :)
+- Theme Config
+  - src/config/theme
+- Site Config
+  - src/config/site
+  - src/components/Layouts/Seo
+- I18n Config
+  - src/config/language
+  - public/locales
+  - next-i18next.config.js
+  - default add EN & ZH-CN
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Inspiration 💡
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  This project is inspired by and re-uses a lot of code from [Nexth](https://github.com/wslyvh/nexth/).
+  
+  Thx for powerful web3 community strength
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
